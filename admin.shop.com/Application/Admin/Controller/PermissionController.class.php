@@ -16,6 +16,10 @@ class PermissionController extends BaseController
         //把数据分配到页面
         $this->assign("meta_title",$this->meta_title);
         $this->assign("rows",$rows);
+        //当我们修改,删除,添加时,状态发生改变,为了使我们操作后还是能够跳转到该页面,
+        //就需要记录该页面,使用cookie保存该页面的url,当操作后,跳转到该url,
+        //获取url---$_SERVER['REQUEST_URI']
+        cookie('__forward__', $_SERVER['REQUEST_URI']);
         //.选择页面display
         $this->display('index');
     }
