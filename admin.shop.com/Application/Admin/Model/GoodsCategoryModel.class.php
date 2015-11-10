@@ -32,7 +32,7 @@ class GoodsCategoryModel extends BaseModel
     public function add()
     {
         //1.使用NestedSetsService业务逻辑类,完成边界的计算
-        $dbMysqlInterfaceImplModel = new DbMysqlInterfaceImplModel();
+        $dbMysqlInterfaceImplModel = D("DbMysqlInterfaceImpl");
         $nestedSetsService = new NestedSetsService($dbMysqlInterfaceImplModel, 'goods_category', 'lft', 'rght', 'parent_id', 'id', 'level');
         //2.然后将数据添加入数据库中,参数(父id,要插入的数据,插入到父类的那个位置)
         return $nestedSetsService->insert($this->data['parent_id'], $this->data, 'bottom');
@@ -44,7 +44,7 @@ class GoodsCategoryModel extends BaseModel
     public function save()
     {
         //1.使用NestedSetsService业务逻辑类,完成边界的计算
-        $dbMysqlInterfaceImplModel = new DbMysqlInterfaceImplModel();
+        $dbMysqlInterfaceImplModel = D("DbMysqlInterfaceImpl");
         $nestedSetsService = new NestedSetsService($dbMysqlInterfaceImplModel, 'goods_category', 'lft', 'rght', 'parent_id', 'id', 'level');
         //2.移动分类(不能移动到器子类和自身)--调用工具中的moveUnder()方法----$id,$parent_id在data中
         $result = $nestedSetsService->moveUnder($this->data['id'], $this->data['parent_id']);

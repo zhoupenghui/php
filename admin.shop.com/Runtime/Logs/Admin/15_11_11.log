@@ -1,0 +1,710 @@
+[ 2015-11-11T00:00:11+08:00 ] 192.168.1.109 /index.php/Permission/edit/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `permission` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`parent_id` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2015-11-11T00:00:14+08:00 ] 192.168.1.109 /index.php/Permission/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0022s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 565 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 4 [ RunTime:0.0008s ]
+
+[ 2015-11-11T00:00:57+08:00 ] 192.168.1.109 /index.php/Permission/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0029s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 565 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 4 [ RunTime:0.0006s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 565 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 2 [ RunTime:0.0005s ]
+
+[ 2015-11-11T00:01:22+08:00 ] 192.168.1.109 /index.php/Permission/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0024s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 565 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 4 [ RunTime:0.0006s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 565 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 2 [ RunTime:0.0004s ]
+
+[ 2015-11-11T00:01:42+08:00 ] 192.168.1.109 /index.php/Permission/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0036s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 565 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 4 [ RunTime:0.0014s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 565 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 2 [ RunTime:0.0013s ]
+
+[ 2015-11-11T00:02:00+08:00 ] 192.168.1.109 /index.php/Permission/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0039s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 563 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 4 [ RunTime:0.0007s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 563 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 2 [ RunTime:0.0009s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 545 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 36 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: 
+				UPDATE permission
+				SET
+					rght = IF(
+						lft >= 3,
+						rght + 2,
+						IF(
+							rght < 3,
+							rght + 2,
+							rght
+						)
+					),
+					level = IF(
+						lft >= 3,
+						level + 0,
+						level
+					),
+					lft = IF(
+						lft >= 3,
+						lft + 2,
+						IF(
+							lft > 4,
+							lft + 2,
+							lft
+						)
+					),
+					parent_id = IF(
+						id = 4,
+						2,
+						parent_id
+					)
+					WHERE
+						rght > 4
+						AND lft < 4 [ RunTime:0.0013s ]
+SQL: UPDATE `permission` SET `name`='商品删除',`url`='Goods/delete',`parent_id`='2',`intro`='商品删除',`status`='1',`sort`='20' WHERE `id` = 4 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2015-11-11T00:02:02+08:00 ] 192.168.1.109 /index.php/Permission/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0033s ]
+SQL: SELECT `id`,`name`,`parent_id`,`status`,`level`,`sort` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2015-11-11T00:02:05+08:00 ] 192.168.1.109 /index.php/Permission/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `permission` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`parent_id` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2015-11-11T00:02:11+08:00 ] 192.168.1.109 /index.php/Permission/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004290s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0028s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 563 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 3 [ RunTime:0.0007s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 563 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 2 [ RunTime:0.0005s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 545 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 36 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: 
+				UPDATE permission
+				SET
+					rght = IF(
+						lft >= 13,
+						rght + -8,
+						IF(
+							rght < 13,
+							rght + 2,
+							rght
+						)
+					),
+					level = IF(
+						lft >= 13,
+						level + 0,
+						level
+					),
+					lft = IF(
+						lft >= 13,
+						lft + -8,
+						IF(
+							lft > 4,
+							lft + 2,
+							lft
+						)
+					),
+					parent_id = IF(
+						id = 3,
+						2,
+						parent_id
+					)
+					WHERE
+						rght > 4
+						AND lft < 14 [ RunTime:0.0181s ]
+SQL: UPDATE `permission` SET `name`='商品添加',`url`='Goods/add',`parent_id`='2',`intro`='商品列表',`status`='1',`sort`='20' WHERE `id` = 3 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2015-11-11T00:02:12+08:00 ] 192.168.1.109 /index.php/Permission/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`name`,`parent_id`,`status`,`level`,`sort` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2015-11-11T00:02:15+08:00 ] 192.168.1.109 /index.php/Permission/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `permission` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`parent_id` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2015-11-11T00:02:19+08:00 ] 192.168.1.109 /index.php/Permission/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0021s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 563 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 6 [ RunTime:0.0007s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 563 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 5 [ RunTime:0.0006s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 460 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 36 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: 
+				UPDATE permission
+				SET
+					lft = IF(
+						rght <= 10,
+						lft + 4,
+						IF(
+							lft > 10,
+							lft - 2, lft
+						)
+					),
+					level = IF(
+						rght <= 10,
+						level + 0,
+						level
+					),
+					rght = IF(
+						rght <= 10,
+						rght + 4,
+						IF(
+							rght <= 14,
+							rght - 2,
+							rght
+						)
+					),
+					parent_id = IF(
+						id = 6,
+						5,
+						parent_id
+					)
+				WHERE
+					rght > 9
+					AND lft <= 14 [ RunTime:0.0011s ]
+SQL: UPDATE `permission` SET `name`='品牌添加77',`url`='Brand/add',`parent_id`='5',`intro`='品牌添加',`status`='1',`sort`='20' WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2015-11-11T00:02:20+08:00 ] 192.168.1.109 /index.php/Permission/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`name`,`parent_id`,`status`,`level`,`sort` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043508s ]
+
+[ 2015-11-11T00:02:22+08:00 ] 192.168.1.109 /index.php/Permission/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `permission` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name`,`parent_id` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2015-11-11T00:02:26+08:00 ] 192.168.1.109 /index.php/Permission/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0021s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 563 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 6 [ RunTime:0.0010s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::getRow() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 563 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 102 行.
+NOTIC: [8] Undefined offset: 7 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: SELECT parent_id, lft, rght, level FROM permission WHERE id = 5 [ RunTime:0.0009s ]
+NOTIC: [4096] Argument 2 passed to Admin\Model\DbMysqlInterfaceImplModel::query() must be of the type array, string given, called in /home/www/shop/admin.shop.com/Application/Admin/Service/NestedSetsService.class.php on line 545 and defined /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 36 /home/www/shop/admin.shop.com/Application/Admin/Model/DbMysqlInterfaceImplModel.class.php 第 151 行.
+SQL: 
+				UPDATE permission
+				SET
+					rght = IF(
+						lft >= 13,
+						rght + 2,
+						IF(
+							rght < 13,
+							rght + 2,
+							rght
+						)
+					),
+					level = IF(
+						lft >= 13,
+						level + 0,
+						level
+					),
+					lft = IF(
+						lft >= 13,
+						lft + 2,
+						IF(
+							lft > 14,
+							lft + 2,
+							lft
+						)
+					),
+					parent_id = IF(
+						id = 6,
+						5,
+						parent_id
+					)
+					WHERE
+						rght > 14
+						AND lft < 14 [ RunTime:0.0010s ]
+SQL: UPDATE `permission` SET `name`='品牌添加',`url`='Brand/add',`parent_id`='5',`intro`='品牌添加',`status`='1',`sort`='20' WHERE `id` = 6 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2015-11-11T00:02:27+08:00 ] 192.168.1.109 /index.php/Permission/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Admin\Model\PermissionModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /home/www/shop/admin.shop.com/Application/Admin/Model/PermissionModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`name`,`parent_id`,`status`,`level`,`sort` FROM `permission` WHERE ( status>=0 ) ORDER BY lft  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+NOTIC: [8] Undefined index: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 41 行.
+NOTIC: [8] Undefined index: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcd491e9c492774e92785a8353f5f22e.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2015-11-11T00:03:57+08:00 ] 192.168.1.109 /index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 16 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2015-11-11T00:04:02+08:00 ] 192.168.1.109 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SELECT TABLE_COMMENT FROM information_schema.TABLES WHERE TABLE_SCHEMA='shop' AND TABLE_NAME='role'; [ RunTime:0.1000s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 55 行.
+SQL: show full columns from role [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 19 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 22 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 25 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 19 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 22 行.
+NOTIC: [8] Undefined index: input_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2015-11-11T00:04:03+08:00 ] 192.168.1.109 /index.php/Gii
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 5 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 16 行.
+NOTIC: [8] Undefined variable: meta_title /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2015-11-11T00:04:07+08:00 ] 192.168.1.109 /index.php/Role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `role` WHERE `status` <> -1 LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000639s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-11-11T00:07:55+08:00 ] 192.168.1.109 /index.php/Role/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/39492054c582e7a4560441a0ed8660b2.php 第 29 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/39492054c582e7a4560441a0ed8660b2.php 第 36 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/39492054c582e7a4560441a0ed8660b2.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+

@@ -64,7 +64,7 @@ class NestedSetsService {
 	 * Class constructor
 	 *
 	 * @access public
-	 * @param \MediaCore\Lib\Db\Db $Db an instance of Db class for manipulating with database
+	 * @param \Admin\Model\DbMysqlInterfaceModel $Db an instance of Db class for manipulating with database
 	 * @param string $table_name table name
 	 * @param string|null $left_key left key field name
 	 * @param string|null $right_key right key field name
@@ -365,7 +365,7 @@ class NestedSetsService {
 		}
 
 		// check possibility
-		if ($near_key >= $item[$this->leftKey] && $near_key <= $item[$this->rightKey]) {
+		if ($near_key > $item[$this->leftKey] && $near_key < $item[$this->rightKey]) {
 			return false;
 		}
 
