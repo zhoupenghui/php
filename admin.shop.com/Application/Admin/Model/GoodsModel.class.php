@@ -65,9 +65,45 @@ class GoodsModel extends BaseModel
         if ($result === false) {
             return false;
         }
+
+        //7.处理商品会员价格
+        $result = $this->handleGoodsMemberPrice($id, $requestData['MemberPrice']);
+        if ($result === false) {
+            return false;
+        }
+
         //更新成功,提交事务
         $this->commit();
         return $id;//保存成功后返回的id
+    }
+
+    /**
+     * 商品会员价格
+     * @param $goods_id   商品的id
+     * @param $memberPrice   商品各会员的价格(会员有多个,数组)
+     * ["memberPrice"] => array(3) {
+            [1] => string(3) "300"       级别id=>价格
+            [2] => string(3) "200"
+            [3] => string(3) "100"
+    }
+     */
+    private function handleGoodsMemberPrice($goods_id, $memberPrices)
+    {
+        $rows=array();//用于存放商品会员价格和商品id,会员id
+        foreach($memberPrices as $member_level_id =>$price){//循环取出商品对应的会员价格
+            $rows[]=array("goods_id"=>$goods_id,"member_level_id"=>$member_level_id,"price"=>$price);
+        }
+        if(!empty($rows)){//判断$rows是否为空,把$rows保存到数据库中
+            $goodsMemberPrice=M("GoodsMemberPrice");//实例化对象
+            //根据当前商品的id,删除当前商品的会员价格,再添加
+            $goodsMemberPrice->where(array("goods_id"=>$goods_id))->delete();
+            $result=$goodsMemberPrice->addAll($rows);//批量添加
+            if($result===false){
+                $this->rollback();
+                $this->error='商品会员价格保存失败!';
+                return false;
+            }
+        }
     }
 
     /**
@@ -78,18 +114,18 @@ class GoodsModel extends BaseModel
     private function handleGoodsArticle($goods_id, $article_ids)
     {
         //取出每篇关联文章的id与之对应的商品id(循环取出),包她们保存到一个数组中
-        $rows=array();//存放关联的id
+        $rows = array();//存放关联的id
         foreach ($article_ids as $article_id) {
-            $rows[]=array("goods_id"=>$goods_id,"article_id"=>$article_id);
+            $rows[] = array("goods_id" => $goods_id, "article_id" => $article_id);
         }
         //$rows可能为空,在这种情况下会出错
-        if(!empty($rows)){
-            $goodsArticleModel=M("GoodsArticle");//实例化GoodsArticle对象,用于要保存的对象
-            $goodsArticleModel->where(array("goods_id"=>$goods_id))->delete();//先删除所有,再添加,完成更新的功能
-            $result=$goodsArticleModel->addAll($rows);//批量保存
-            if($result===false){
+        if (!empty($rows)) {
+            $goodsArticleModel = M("GoodsArticle");//实例化GoodsArticle对象,用于要保存的对象
+            $goodsArticleModel->where(array("goods_id" => $goods_id))->delete();//先删除所有,再添加,完成更新的功能
+            $result = $goodsArticleModel->addAll($rows);//批量保存
+            if ($result === false) {
                 $this->rollback();
-                $this->error="保存关联文章出错";
+                $this->error = "保存关联文章出错";
                 return false;
             }
         }
@@ -186,6 +222,12 @@ class GoodsModel extends BaseModel
         if ($result === false) {
             return false;
         }
+        //5.处理商品会员价格
+       $result= $this->handleGoodsMemberPrice($this->data['id'], $requestData['MemberPrice']);
+        if ($result === false) {
+            return false;
+        }
+        
         //3.更新数据
         $result = parent::save();
         if ($result === false) {

@@ -27,6 +27,13 @@ class GoodsController extends BaseController
         $suppliers = $supplierModel->getShowList();//获取状态为1的品牌数据(值显示要显示的品牌)
         $this->assign('suppliers', $suppliers);
 
+        //4.准备会员级别的数据,分配到页面
+        $MemberLevelModle=D("MemberLevel");
+        $MemberLevels=$MemberLevelModle->getShowList('id,name');
+        $this->assign('MemberLevels',$MemberLevels);
+
+
+        //编辑时
         $id = I("get.id", "");//获取商品的id,如果没有id,则默认值为空
         if (!empty($id)) {//id不为空时,表示编辑,执行
             //4.1当编辑时,准备商品简介数据---从goods_intro表中根据商品的id获取数据,分配到页面(编辑时,添加时就不需要了)
@@ -41,6 +48,10 @@ class GoodsController extends BaseController
             $goodsArticleModel=D("GoodsArticle");//商品的模型
             $goodsArticles=$goodsArticleModel->getArticleByGoods_id($id);//根据商品id,查询出对应的文章数据
             $this->assign('goodsArticles',$goodsArticles);
+            //4.4根据当前商品的id,把当前商品的会员价格查询出来
+            $goodsMemberPriceModel=D("GoodsMemberPrice");//实例化商品会员价格关联表
+            $goodsMemberPrice=$goodsMemberPriceModel->getMemberPrice($id);//调用方法getMemberPrice(),根据id获取商品对应会员的价格
+            $this->assign('goodsMemberPrice',$goodsMemberPrice);
         }
     }
 

@@ -51,8 +51,7 @@ class ArticleController extends BaseController
         $articleModel = D("Article");//实例化对象
         $wheres=array();//定义一个搜索条件数组
         $wheres['name']=array('like',"%".$keyword."%");
-        $rows= $articleModel->getShowList($wheres,"id,name");//传入条件和字段
+        $rows= $articleModel->getShowList("id,name",$wheres);//传入条件和字段
         $this->ajaxReturn($rows);
-
     }
 }

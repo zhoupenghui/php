@@ -139,12 +139,12 @@
             </tr>
         </table>
         <table cellspacing="1" cellpadding="3" width="100%"  style="display: none">
-            <tr>
-                <td class="label">会员价格</td>
+            <?php if(is_array($MemberLevels)): $i = 0; $__LIST__ = $MemberLevels;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$MemberLevel): $mod = ($i % 2 );++$i;?><tr>
+                <td class="label"><?php echo ($MemberLevel["name"]); ?></td>
                 <td>
-                    <input type="text" ><span class="require-field">*</span>
+                    <input type="text" name="MemberPrice[<?php echo ($MemberLevel["id"]); ?>]" value="<?php echo ($goodsMemberPrice[$MemberLevel['id']]); ?>"/>元<span class="require-field">*</span>
                 </td>
-            </tr>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </table>
         <table cellspacing="1" cellpadding="3" width="100%"  style="display: none">
             <tr>

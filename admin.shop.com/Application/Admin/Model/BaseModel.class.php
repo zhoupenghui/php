@@ -69,7 +69,7 @@ class BaseModel extends Model
     /**
      *查看status为1的,并且按sort排序后 的数据
      */
-    public function getShowList($wheres=array(),$field="*"){
+    public function getShowList($field="*",$wheres=array()){
         $wheres['status']=1;
         return $this->where($wheres)->field($field)->order('sort')->select();
     }

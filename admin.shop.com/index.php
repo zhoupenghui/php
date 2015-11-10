@@ -1,20 +1,20 @@
-<?php
-//1.¶Ô±Èµ±Ç°phpÔËÐÐ»·¾³,»ñÈ¡php°æ±¾,PHP_VERSION
+ï»¿<?php
+//1.å¯¹æ¯”å½“å‰phpè¿è¡ŒçŽ¯å¢ƒ,èŽ·å–phpç‰ˆæœ¬,PHP_VERSION
 if(version_compare(PHP_VERSION,'5.3.0','<')){
-    die('°æ±¾¹ýµÍ');
+    die('ç‰ˆæœ¬è¿‡ä½Ž');
 }
-//2.¶¨ÒåÏîÄ¿ÔËÐÐµÄÄ¿Â¼
+//2.å®šä¹‰é¡¹ç›®è¿è¡Œçš„ç›®å½•
 define('ROOT_PATH',dirname($_SERVER['SCRIPT_FILENAME']).'/');
-//3. ½«ThinkPHP¿ò¼ÜÄ¿Â¼¶¨ÒåÎª³£Á¿
+//3. å°†ThinkPHPæ¡†æž¶ç›®å½•å®šä¹‰ä¸ºå¸¸é‡
 define('THINK_PATH',dirname(ROOT_PATH).'/ThinkPHP'.'/');
-//4¶¨ÒåÓ¦ÓÃÄ¿Â¼,APP_PATH
+//4å®šä¹‰åº”ç”¨ç›®å½•,APP_PATH
 define('APP_PATH',ROOT_PATH.'Application'.'/');
-//5.¶¨ÒåRUNTIME_PATH,Ö¸¶¨ÔËÐÐÄ¿Â¼----¶¨ÒåÔÚ¸ÃÏîÄ¿µÄ¸ùÏÂ
+//5.å®šä¹‰RUNTIME_PATH,æŒ‡å®šè¿è¡Œç›®å½•----å®šä¹‰åœ¨è¯¥é¡¹ç›®çš„æ ¹ä¸‹
 define('RUNTIME_PATH',ROOT_PATH.'Runtime'.'/');
-//6.¿ªÆôµ÷ÊÔÄ£Ê½ ½¨Òé¿ª·¢½×¶Î¿ªÆô ²¿Êð½×¶Î×¢ÊÍ»òÕßÉèÎªfalse
+//6.å¼€å¯è°ƒè¯•æ¨¡å¼ å»ºè®®å¼€å‘é˜¶æ®µå¼€å¯ éƒ¨ç½²é˜¶æ®µæ³¨é‡Šæˆ–è€…è®¾ä¸ºfalse
 define('APP_DEBUG', true);
-//7.°ó¶¨Ä£ÐÍ,°ó¶¨ºó¾Í×¢ÊÍÁË
+//7.ç»‘å®šæ¨¡åž‹,ç»‘å®šåŽå°±æ³¨é‡Šäº†
 define('BIND_MODULE','Admin');
 
-//8.¼ÓÔØ¿ò¼Ü´úÂë
+//8.åŠ è½½æ¡†æž¶ä»£ç 
 require THINK_PATH.'ThinkPHP.php';

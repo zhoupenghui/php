@@ -122,12 +122,14 @@
             </tr>
         </table>
         <table cellspacing="1" cellpadding="3" width="100%"  style="display: none">
+            <voList name="MemberLevels" id="MemberLevel">
             <tr>
-                <td class="label">会员价格</td>
+                <td class="label">{$MemberLevel.name}</td>
                 <td>
-                    <input type="text" ><span class="require-field">*</span>
+                    <input type="text" name="MemberPrice[{$MemberLevel.id}]" value="{$goodsMemberPrice[$MemberLevel['id']]}"/>元<span class="require-field">*</span>
                 </td>
             </tr>
+            </voList>
         </table>
         <table cellspacing="1" cellpadding="3" width="100%"  style="display: none">
             <tr>
